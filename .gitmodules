@@ -1,0 +1,3 @@
+[submodule "external/deeponet-fno"]
+	path = external/deeponet-fno
+	url = https://github.com/lu-group/deeponet-fno.git
