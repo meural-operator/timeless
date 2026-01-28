@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Experiments / outputs
+experiments/
+results/
+logs/
+
+# Large data
+datasets/
+*.npy
+*.npz
+*.pt
+*.pth
+
+# Environment
+.env
+.venv
+venv/
+conda/

@@ -1,0 +1,20 @@
+experiment:
+  name: deeponet_bc
+  root_dir: experiments/deeponet_bc
+  seed: 42
+
+dataset:
+  root: datasets/bc
+  seq_len: 20
+
+model:
+  hidden_dim: 256
+  depth: 5
+
+optimization:
+  batch_size: 16
+  learning_rate: 1.0e-3
+  epochs: 300
+
+checkpoint:
+  save_every: 10
